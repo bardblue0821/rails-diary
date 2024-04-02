@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @diaryapp %>
+
+<div>
+  <%= link_to "Edit this diaryapp", edit_diaryapp_path(@diaryapp) %> |
+  <%= link_to "Back to diaryapps", diaryapps_path %>
+
+  <%= button_to "Destroy this diaryapp", @diaryapp, method: :delete %>
+</div>

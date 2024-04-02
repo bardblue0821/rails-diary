@@ -1,0 +1,2 @@
+module DiaryappsHelper
+end

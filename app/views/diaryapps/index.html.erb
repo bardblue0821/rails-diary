@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Diaryapps</h1>
+
+<div id="diaryapps">
+  <% @diaryapps.each do |diaryapp| %>
+    <%= render diaryapp %>
+    <p>
+      <%= link_to "Show this diaryapp", diaryapp %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New diaryapp", new_diaryapp_path %>
